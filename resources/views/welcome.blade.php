@@ -57,6 +57,12 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
+            
+            .caption {
+                letter-spacing: .1rem;
+                font-size: 20px;
+                font-weight: 600;
+            }
 
             .m-b-md {
                 margin-bottom: 30px;
@@ -80,18 +86,16 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="m-b-md">
+                    <img src="{{ asset('/images/branding/logo-full.png') }}" alt="mosque-screen-logo">
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="/docs">Getting started</a>
+                    <a href="/live-screens">Live Screens</a>
+                    <a href="https://medium.com/mosque" target="_blank">Blog</a>
+                    <a href="https://discord.gg/CG7frj2" target="_blank">Chat to us / Support</a>
+                    <a href="https://github.com/DilwoarH/Mosque-Screen" target="_blank">GitHub / Code</a>
                 </div>
             </div>
         </div>
