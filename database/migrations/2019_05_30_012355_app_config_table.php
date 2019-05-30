@@ -15,7 +15,7 @@ class AppConfigTable extends Migration
     {
         Schema::create('app_configs', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('screen_id')->nullable();
+            $table->unsignedBigInteger('screen_id');
             $table->string('key');
             $table->text('value')->nullable();
             $table->timestamps();
